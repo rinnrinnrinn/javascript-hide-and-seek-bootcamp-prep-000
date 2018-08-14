@@ -3,7 +3,9 @@ function getFirstSelector(selector) {
   return selectorName;
 }
 
-function nestedTarget(selectorName) {
-var nested = div.nested.target(selector);
-return nested;
-}
+function nestedtarget(document, criteriaFn) {
+  for (let i = 0; i < document.length; i++) {
+    if (criteriaFn(document[i])) {
+      return document[i];
+    }
+  }}
