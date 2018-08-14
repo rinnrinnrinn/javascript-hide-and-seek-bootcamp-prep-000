@@ -13,3 +13,6 @@ function increaseRankBy(n) {
     upRank[i].innerHTML = ((parseInt(upRank[i].innerHTML)) + n)
 }}
 
+function deepestChild() {
+  return document.getElementById('nested').querySelectorAll('div.grand-node')
+}
