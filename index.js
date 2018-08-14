@@ -3,5 +3,7 @@ function getFirstSelector(selector) {
   return selectorName;
 }
 
-function nestedtarget(document, criteriaFn) {
+function nestedtarget(div, target) {
+  let current = div
+  let next = []
   
