@@ -3,6 +3,7 @@ function getFirstSelector(selector) {
   return selectorName;
 }
 
-function nestedTarget() {
-
+function nestedTarget(selectorName) {
+var target = div.target();
+return target;
 }
