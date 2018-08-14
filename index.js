@@ -3,8 +3,8 @@ function getFirstSelector(selector) {
   return selectorName;
 }
 
-function nestedtarget(selector, targetName) {
-  let current = targetName
+function nestedTarget() {
+  let current = div
   let next = []
   while (current) {
     if (selector(current)) {
