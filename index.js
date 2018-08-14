@@ -4,8 +4,4 @@ function getFirstSelector(selector) {
 }
 
 function nestedtarget(document, criteriaFn) {
-  for (let i = 0; i < document.length; i++) {
-    if (criteriaFn(document[i])) {
-      return document[i];
-    }
-  }}
+  
