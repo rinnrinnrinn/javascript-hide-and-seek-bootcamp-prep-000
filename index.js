@@ -3,10 +3,10 @@ function getFirstSelector(selector) {
   return selectorName;
 }
 
-function nestedtarget(div, targetName) {
+function nestedtarget(selector, targetName) {
   let current = targetName
   let next = []
   while (current) {
-    if ((current)) {
+    if (selector(current)) {
       return current
     }
