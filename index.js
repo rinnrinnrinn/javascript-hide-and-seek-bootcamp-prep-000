@@ -7,7 +7,7 @@ function nestedTarget() {
   return document.getElementById('nested').querySelector('div.target')
 }
 
-function increaseRankBy(n, base) {
+function increaseRankBy(n) {
   var parsed = parseInt(n, base);
   if (isNaN(parsed)) { return 0 }
   return parsed * n;
