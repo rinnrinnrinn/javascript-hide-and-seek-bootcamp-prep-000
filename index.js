@@ -4,6 +4,5 @@ function getFirstSelector(selector) {
 }
 
 function nestedTarget(selectorName) {
-var target = #nested.target();
-return target;
+
 }
