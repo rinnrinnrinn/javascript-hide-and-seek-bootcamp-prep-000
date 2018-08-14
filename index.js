@@ -4,9 +4,5 @@ function getFirstSelector(selector) {
 }
 
 function nestedTarget() {
-  let current = div
-  let next = []
-  while (current) {
-    if (selector(current)) {
-      return current
-    }
+  var targetName = document.querySelector("nested");
+  
