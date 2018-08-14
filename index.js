@@ -8,7 +8,7 @@ function nestedTarget() {
 }
 
 function increaseRankBy(n) {
-  var parsed = parseInt(n, base);
+  var parsed = parseInt(n);
   if (isNaN(parsed)) { return 0 }
   return parsed * n;
 }
